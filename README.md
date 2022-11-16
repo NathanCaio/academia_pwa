@@ -1,1 +1,1 @@
-Documentation for Magento PWA Studio packages is located at [https://developer.adobe.com/commerce/pwa-studio/](https://developer.adobe.com/commerce/pwa-studio/).
+This project is a study case of a PWA Studio trainig program from Webjump to capacitate to real projects development.
