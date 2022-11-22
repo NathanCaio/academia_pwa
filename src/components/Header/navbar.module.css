@@ -1,0 +1,31 @@
+.root {
+    composes: lg_flex from global;
+
+    composes: hidden from global;
+
+    composes: w-full from global;
+    composes: flex from global;
+    composes: justify-center from global;
+    composes: align-center from global;
+    composes: lg_col-end-2 from global;
+    composes: lg_col-start-2 from global;
+}
+
+.linkList {
+    composes: flex from global;
+    composes: justify-between from global;
+    composes: gap-x-2 from global;
+}
+
+.linkItem {
+    composes: uppercase from global;
+    composes: font-semibold from global;
+
+    color: #c70041;
+}
+
+.linkItem + .linkItem::before {
+    content: '|';
+    margin-right: 0.5rem;
+    color: #707070;
+}

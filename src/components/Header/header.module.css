@@ -63,13 +63,17 @@
     composes: z-header from global;
 
     composes: lg_h-20 from global;
-    composes: lg_gap-x-8 from global;
-    composes: lg_grid-cols-12 from global;
+    composes: lg_flex from global;
+    composes: lg_justify-between from global;
+    composes: lg_items-center from global;
 }
 
 .logo {
-    height: 4rem;
-    width: 10rem;
+    composes: w-16 from global;
+    composes: h-12 from global;
+
+    composes: lg_w-40 from global;
+    composes: lg_h-16 from global;
 }
 
 .primaryActions {
@@ -79,13 +83,14 @@
     composes: justify-self-start from global;
     composes: row-start-1 from global;
     composes: self-center from global;
+    composes: lg_hidden from global;
 }
 
 .logoContainer {
     composes: col-start-2 from global;
     composes: justify-self-center from global;
 
-    composes: lg_col-end-3 from global;
+    composes: lg_col-end-1 from global;
     composes: lg_col-start-1 from global;
     composes: lg_justify-self-start from global;
     composes: lg_mr-8 from global;
@@ -101,8 +106,8 @@
     composes: justify-self-end from global;
     composes: w-max from global;
 
-    composes: lg_col-end-13 from global;
-    composes: lg_col-start-10 from global;
+    composes: lg_col-end-3 from global;
+    composes: lg_col-start-3 from global;
     composes: lg_gap-x-4 from global;
 }
 
