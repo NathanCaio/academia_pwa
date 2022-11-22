@@ -38,5 +38,8 @@ module.exports = {
         'src/components/Header/cartTrigger.jsx',
 
     '@magento/venia-ui/lib/components/Header/cartTrigger.module.css':
-        'src/components/Header/cartTrigger.module.css'
+        'src/components/Header/cartTrigger.module.css',
+
+    '@magento/venia-ui/lib/components/HomePage/homePage.ee.js':
+        'src/components/HomePage/homePage.ee.jsx'
 };
