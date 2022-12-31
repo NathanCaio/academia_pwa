@@ -1,7 +1,14 @@
 import React from 'react';
 
+import Slider from '@/components/HomePage/Slider';
+
 const HomePage = () => {
-    return <h1>Hello world</h1>;
+    return (
+        <>
+            <Slider />
+            <p>Testando</p>
+        </>
+    );
 };
 
 export default HomePage;

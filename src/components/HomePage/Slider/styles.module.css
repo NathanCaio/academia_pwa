@@ -1,0 +1,126 @@
+.container {
+    composes: w-full from global;
+    composes: left-0 from global;
+}
+
+.slider {
+    composes: w-full from global;
+    composes: bg-no-repeat from global;
+    composes: bg-contain from global;
+
+    height: 50vw;
+    background-image: url('@/assets/slide_bg.png');
+    background-position: 50% 0%;
+}
+
+.slider :global(.swiper-button-next) {
+    color: #fff;
+    right: 3rem;
+}
+
+.slider :global(.swiper-button-next)::after {
+    font-size: 10rem;
+}
+
+.slider :global(.swiper-button-prev) {
+    color: #fff;
+    left: 3rem;
+}
+
+.slider :global(.swiper-button-prev)::after {
+    font-size: 10rem;
+}
+
+.slider :global(.swiper-pagination) {
+    display: flex;
+    justify-content: center;
+    bottom: 4rem !important;
+}
+
+.slider :global(.swiper-pagination-bullet) {
+    width: 15rem;
+    height: 9vw;
+    margin: 0 !important;
+    padding: 1rem 3rem;
+    color: #14214e;
+    background-color: #fff;
+    border-radius: 0;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1 !important;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.slider :global(.swiper-pagination-bullet-active) {
+    color: #fff;
+    background-color: #14214e;
+}
+
+@media (min-width: 1440px) {
+    .slider {
+        height: 40rem;
+    }
+
+    .slider :global(.swiper-pagination-bullet) {
+        height: 8rem;
+    }
+
+    .slider :global(.swiper-pagination) {
+        bottom: 2rem !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    .slider {
+        height: 28rem;
+        background-size: cover;
+    }
+
+    .slider :global(.swiper-button-next)::after,
+    .slider :global(.swiper-button-prev)::after {
+        font-size: 5rem;
+    }
+
+    .slider :global(.swiper-pagination-bullet) {
+        width: 1rem;
+        height: 1rem;
+        padding: 0;
+        border-radius: 999rem;
+        background-color: #d7d7d7;
+        border: none;
+    }
+
+    .slider :global(.swiper-pagination-bullet) > * {
+        display: none;
+    }
+
+    .slider :global(.swiper-pagination-bullet-active) {
+        background-color: #c70041;
+    }
+
+    .slider :global(.swiper-pagination) {
+        bottom: 1rem !important;
+        gap: 0.25rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .slider :global(.swiper-button-next) {
+        right: 1rem;
+    }
+
+    .slider :global(.swiper-button-next)::after {
+        font-size: 3rem;
+    }
+
+    .slider :global(.swiper-button-prev) {
+        left: 1rem;
+    }
+
+    .slider :global(.swiper-button-prev)::after {
+        font-size: 3rem;
+    }
+}
