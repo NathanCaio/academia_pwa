@@ -17,6 +17,19 @@
  * or modify functionality from its dependencies.
  */
 
-function localIntercept() {}
+function localIntercept(targets) {
+    (async () => {
+        targets.of('@magento/venia-ui').routes.tap(routes => {
+            routes.push({
+                name: 'Home page',
+                pattern: ['/', '/home'],
+                exact: true,
+                path: require.resolve('./src/components/HomePage')
+            });
+
+            return routes;
+        });
+    })();
+}
 
 module.exports = localIntercept;
