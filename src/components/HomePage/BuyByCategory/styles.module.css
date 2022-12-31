@@ -1,0 +1,27 @@
+.buyByCategoryContainer {
+    composes: w-full from global;
+    composes: mx-auto from global;
+
+    max-width: 77.5rem;
+}
+
+.buyByCategoryTitle {
+    composes: text-xl from global;
+    composes: uppercase from global;
+    composes: text-center from global;
+    composes: p-6 from global;
+    composes: font-bold from global;
+
+    color: #14214e;
+}
+
+.categoriesContainer {
+    composes: flex from global;
+    composes: flex-col from global;
+    composes: gap-4 from global;
+    composes: items-center from global;
+    composes: px-4 from global;
+
+    composes: xl_justify-between from global;
+    composes: xl_flex-row from global;
+}

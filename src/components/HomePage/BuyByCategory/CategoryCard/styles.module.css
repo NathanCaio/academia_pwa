@@ -1,0 +1,22 @@
+.categoryCardContainer {
+    composes: block from global;
+    composes: w-full from global;
+    composes: max-w-sm from global;
+    composes: relative from global;
+}
+
+.categoryCardImage {
+    composes: w-full from global;
+}
+
+.categoryCardTitle {
+    composes: absolute from global;
+    composes: -translate-x-1/2 from global;
+    composes: -translate-y-1/2 from global;
+    composes: top-1/2 from global;
+    composes: left-1/2 from global;
+    composes: text-white from global;
+    composes: uppercase from global;
+    composes: font-bold from global;
+    composes: text-xl from global;
+}
