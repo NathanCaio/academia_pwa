@@ -41,5 +41,14 @@ module.exports = {
         'src/components/Header/cartTrigger.module.css',
 
     '@magento/venia-ui/lib/components/HomePage/homePage.ee.js':
-        'src/components/HomePage/homePage.ee.jsx'
+        'src/components/HomePage/homePage.ee.jsx',
+
+    '@magento/venia-ui/lib/components/Footer/footer.js':
+        'src/components/Footer/footer.js',
+
+    '@magento/venia-ui/lib/components/Footer/sampleData.js':
+        'src/components/Footer/sampleData.js',
+
+    '@magento/venia-ui/lib/components/Footer/footer.module.css':
+        'src/components/Footer/footer.module.css'
 };

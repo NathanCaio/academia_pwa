@@ -1,0 +1,44 @@
+.newsletterBarContainer {
+    composes: w-full from global;
+    composes: text-white from global;
+    composes: flex from global;
+    composes: flex-col from global;
+    composes: mt-12 from global;
+    composes: p-4 from global;
+    composes: rounded from global;
+    composes: gap-2 from global;
+    composes: justify-center from global;
+    composes: items-center from global;
+
+    composes: md_flex-row from global;
+
+    background-color: #14214e;
+}
+
+.newsletterBarTitle {
+    composes: text-lg from global;
+    composes: uppercase from global;
+    composes: font-bold from global;
+}
+
+.newsletterBarForm {
+    composes: flex from global;
+    composes: flex-col from global;
+    composes: gap-2 from global;
+
+    composes: md_flex-row from global;
+}
+
+.newsletterBarInput {
+    composes: p-2 from global;
+    composes: text-black from global;
+}
+
+.newsletterBarButton {
+    composes: p-2 from global;
+    composes: font-bold from global;
+    composes: hover_brightness-90 from global;
+
+    background-color: #cdb44d;
+    transition: 0.2s ease-in-out;
+}
