@@ -1,21 +1,27 @@
 import { useState, useEffect } from 'react';
-import { useQuery } from '@apollo/client';
+import { useLazyQuery } from '@apollo/client';
 import { GET_CATEGORIES_BY_ID } from './categories.gql';
 
 const useCategories = ({ ids }) => {
     const [categories, setCategories] = useState([]);
 
-    const { data } = useQuery(GET_CATEGORIES_BY_ID, {
-        variables: {
-            ids
-        }
-    });
+    const [fetchCategories] = useLazyQuery(GET_CATEGORIES_BY_ID);
+
+    const getCategories = async ids => {
+        const { data } = await fetchCategories({
+            variables: {
+                ids
+            }
+        });
+
+        setCategories(data.categoryList);
+    };
 
     useEffect(() => {
-        if (data.categoryList) {
-            setCategories(data.categoryList);
+        if (categories.length === 0) {
+            getCategories(ids);
         }
-    }, [data]);
+    }, [categories.length]);
 
     return {
         categories
