@@ -17,8 +17,7 @@ import StoreSwitcher from '@magento/venia-ui/lib/components/Header/storeSwitcher
 import CurrencySwitcher from '@magento/venia-ui/lib/components/Header/currencySwitcher';
 import PageLoadingIndicator from '@magento/venia-ui/lib/components/PageLoadingIndicator';
 import { useIntl } from 'react-intl';
-import CmsBlock from '@magento/venia-ui/lib/components/CmsBlock';
-import Navbar from '@/components/Header/navbar';
+import MegaMenu from '@magento/venia-ui/lib/components/MegaMenu';
 
 const SearchBar = React.lazy(() =>
     import('@magento/venia-ui/lib/components/SearchBar')
@@ -83,7 +82,7 @@ const Header = props => {
                     >
                         <Logo classes={{ logo: classes.logo }} />
                     </Link>
-                    <Navbar />
+                    <MegaMenu />
                     <div className={classes.secondaryActions}>
                         <SearchTrigger
                             onClick={handleSearchTriggerClick}

@@ -50,5 +50,11 @@ module.exports = {
         'src/components/Footer/sampleData.js',
 
     '@magento/venia-ui/lib/components/Footer/footer.module.css':
-        'src/components/Footer/footer.module.css'
+        'src/components/Footer/footer.module.css',
+
+    '@magento/venia-ui/lib/components/MegaMenu/megaMenu.module.css':
+        'src/components/MegaMenu/megaMenu.module.css',
+
+    '@magento/venia-ui/lib/components/MegaMenu/megaMenuItem.module.css':
+        'src/components/MegaMenu/megaMenuItem.module.css'
 };
