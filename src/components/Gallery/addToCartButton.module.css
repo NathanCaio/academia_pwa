@@ -10,6 +10,8 @@
     composes: border-[#c70041] from global;
     composes: hover_bg-[#930030] from global;
     composes: hover_border-[#930030] from global;
+    composes: active_bg-[#930030] from global;
+    composes: active_border-[#930030] from global;
     min-height: 2rem;
 
     composes: sm_min-w-[8rem] from global;
