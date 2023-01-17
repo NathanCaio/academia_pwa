@@ -104,5 +104,14 @@ module.exports = {
         'src/components/Gallery/gallery.jsx',
 
     '@magento/peregrine/lib/talons/SearchPage/useSearchPage.js':
-        'src/talons/SearchPage/useSearchPage.js'
+        'src/talons/SearchPage/useSearchPage.js',
+
+    '@magento/peregrine/lib/talons/RootComponents/Product/productDetailFragment.gql.js':
+        'src/talons/RootComponents/Product/productDetailFragment.gql.js',
+
+    '@magento/venia-ui/lib/components/ProductFullDetail/productFullDetail.js':
+        'src/components/ProductFullDetail/productFullDetail.jsx',
+
+    '@magento/venia-ui/lib/components/ProductFullDetail/productFullDetail.module.css':
+        'src/components/ProductFullDetail/productFullDetail.module.css'
 };

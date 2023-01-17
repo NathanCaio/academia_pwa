@@ -13,6 +13,11 @@
     composes: -mb-[1rem] from global;
 }
 
+.root > span:last-of-type {
+    color: #c70041;
+    font-weight: 700;
+}
+
 .text {
     composes: p-1 from global;
 }
@@ -28,5 +33,4 @@
 
 .currentCategory {
     composes: text;
-    composes: text-[#c70041] from global;
 }
