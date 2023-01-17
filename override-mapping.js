@@ -89,5 +89,20 @@ module.exports = {
         'src/components/Gallery/addToCartButton.jsx',
 
     '@magento/venia-ui/lib/components/Gallery/addToCartButton.module.css':
-        'src/components/Gallery/addToCartButton.module.css'
+        'src/components/Gallery/addToCartButton.module.css',
+
+    '@magento/venia-ui/lib/components/SearchPage/searchPage.js':
+        'src/components/SearchPage/searchPage.jsx',
+
+    '@magento/venia-ui/lib/components/SearchPage/searchPage.module.css':
+        'src/components/SearchPage/searchPage.module.css',
+
+    '@magento/venia-ui/lib/components/FilterModal/CurrentFilters/currentFilter.module.css':
+        'src/components/FilterModal/CurrentFilters/currentFilter.module.css',
+
+    '@magento/venia-ui/lib/components/Gallery/gallery.js':
+        'src/components/Gallery/gallery.jsx',
+
+    '@magento/peregrine/lib/talons/SearchPage/useSearchPage.js':
+        'src/talons/SearchPage/useSearchPage.js'
 };
