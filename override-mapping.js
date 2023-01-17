@@ -56,5 +56,38 @@ module.exports = {
         'src/components/MegaMenu/megaMenu.module.css',
 
     '@magento/venia-ui/lib/components/MegaMenu/megaMenuItem.module.css':
-        'src/components/MegaMenu/megaMenuItem.module.css'
+        'src/components/MegaMenu/megaMenuItem.module.css',
+
+    '@magento/venia-ui/lib/components/Breadcrumbs/breadcrumbs.module.css':
+        'src/components/Breadcrumbs/breadcrumbs.module.css',
+
+    '@magento/venia-ui/lib/RootComponents/Category/categoryContent.js':
+        'src/RootComponents/Category/categoryContent.jsx',
+
+    '@magento/venia-ui/lib/RootComponents/Category/category.module.css':
+        'src/RootComponents/Category/category.module.css',
+
+    '@magento/venia-ui/lib/components/FilterSidebar/filterSidebar.js':
+        'src/components/FilterSidebar/filterSidebar.jsx',
+
+    '@magento/venia-ui/lib/components/FilterSidebar/filterSidebar.module.css':
+        'src/components/FilterSidebar/filterSidebar.module.css',
+
+    '@magento/venia-ui/lib/components/FilterModal/filterBlock.js':
+        'src/components/FilterModal/filterBlock.jsx',
+
+    '@magento/venia-ui/lib/components/FilterModal/filterBlock.module.css':
+        'src/components/FilterModal/filterBlock.module.css',
+
+    '@magento/venia-ui/lib/components/Gallery/item.js':
+        'src/components/Gallery/item.jsx',
+
+    '@magento/venia-ui/lib/components/Gallery/item.module.css':
+        'src/components/Gallery/item.module.css',
+
+    '@magento/venia-ui/lib/components/Gallery/addToCartButton.js':
+        'src/components/Gallery/addToCartButton.jsx',
+
+    '@magento/venia-ui/lib/components/Gallery/addToCartButton.module.css':
+        'src/components/Gallery/addToCartButton.module.css'
 };
