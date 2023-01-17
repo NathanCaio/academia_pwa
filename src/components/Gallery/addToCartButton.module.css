@@ -1,0 +1,30 @@
+.root {
+    composes: root_highPriority from '@magento/venia-ui/lib/components/Button/button.module.css';
+
+    composes: min-w-[6.125rem] from global;
+    composes: -ml-2xs from global;
+    composes: px-2xs from global;
+    composes: py-0 from global;
+    composes: self-center from global;
+    composes: bg-[#c70041] from global;
+    composes: border-[#c70041] from global;
+    composes: hover_bg-[#930030] from global;
+    composes: hover_border-[#930030] from global;
+    min-height: 2rem;
+
+    composes: sm_min-w-[8rem] from global;
+    /* composes: md_min-w-0 from global; */
+}
+
+.icon {
+    composes: inline from global;
+    composes: stroke-white from global;
+
+    composes: xs_hidden from global;
+}
+
+.text {
+    composes: hidden from global;
+
+    composes: xs_inline from global;
+}
