@@ -113,5 +113,14 @@ module.exports = {
         'src/components/ProductFullDetail/productFullDetail.jsx',
 
     '@magento/venia-ui/lib/components/ProductFullDetail/productFullDetail.module.css':
-        'src/components/ProductFullDetail/productFullDetail.module.css'
+        'src/components/ProductFullDetail/productFullDetail.module.css',
+
+    '@magento/venia-ui/lib/components/Wishlist/AddToListButton/addToListButton.ee.js':
+        'src/components/Wishlist/AddToListButton/addToListButton.ee.jsx',
+
+    '@magento/peregrine/lib/talons/Wishlist/AddToListButton/useAddToListButton.ee.js':
+        'src/talons/Wishlist/AddToListButton/useAddToListButton.ee.js',
+
+    '@magento/peregrine/lib/talons/ProductFullDetail/useProductFullDetail.js':
+        'src/talons/ProductFullDetail/useProductFullDetail.js'
 };

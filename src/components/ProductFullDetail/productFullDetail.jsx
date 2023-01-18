@@ -18,7 +18,6 @@ import RichContent from '@magento/venia-ui/lib/components/RichContent/richConten
 import { ProductOptionsShimmer } from '@magento/venia-ui/lib/components/ProductOptions';
 import CustomAttributes from '@magento/venia-ui/lib/components/ProductFullDetail/CustomAttributes';
 import defaultClasses from '@magento/venia-ui/lib/components/ProductFullDetail/productFullDetail.module.css';
-import NewsletterBar from '@/components/NewsletterBar';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 
@@ -317,7 +316,6 @@ const ProductFullDetail = props => {
                 </Tabs>
                 {pageBuilderAttributes}
             </Form>
-            <NewsletterBar />
         </Fragment>
     );
 };
