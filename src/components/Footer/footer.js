@@ -13,6 +13,7 @@ import {
     LOREM_IPSUM
 } from '@magento/venia-ui/lib/components/Footer/sampleData';
 import resourceUrl from '@magento/peregrine/lib/util/makeUrl';
+import NewsletterBar from '@/components/NewsletterBar';
 
 const Footer = props => {
     const { links } = props;
@@ -58,39 +59,43 @@ const Footer = props => {
     });
 
     return (
-        <footer data-cy="Footer-root" className={classes.root}>
-            <div className={classes.links}>
-                {linkGroups}
-                <div className={classes.callout}>
-                    <span
-                        data-cy="Footer-calloutHeading"
-                        className={classes.calloutHeading}
-                    >
-                        Suporte
-                    </span>
-                    <ul className={classes.supportContacts}>
-                        <li>
-                            <Phone size={20} /> <span>0800 123 4567</span>
-                        </li>
-                        <li>
-                            <Mail size={20} /> <span>ajuda@truck.com.br</span>
-                        </li>
-                    </ul>
+        <>
+            <NewsletterBar />
+            <footer data-cy="Footer-root" className={classes.root}>
+                <div className={classes.links}>
+                    {linkGroups}
+                    <div className={classes.callout}>
+                        <span
+                            data-cy="Footer-calloutHeading"
+                            className={classes.calloutHeading}
+                        >
+                            Suporte
+                        </span>
+                        <ul className={classes.supportContacts}>
+                            <li>
+                                <Phone size={20} /> <span>0800 123 4567</span>
+                            </li>
+                            <li>
+                                <Mail size={20} />{' '}
+                                <span>ajuda@truck.com.br</span>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <div className={classes.branding}>
-                <p className={classes.copyright}>
-                    Copyright &#169; Academia PWA Studio - Webjump
-                </p>
-                <Link
-                    to={resourceUrl('/')}
-                    aria-label={title}
-                    className={classes.logoContainer}
-                >
-                    <Logo classes={{ logo: classes.logo }} />
-                </Link>
-            </div>
-        </footer>
+                <div className={classes.branding}>
+                    <p className={classes.copyright}>
+                        Copyright &#169; Academia PWA Studio - Webjump
+                    </p>
+                    <Link
+                        to={resourceUrl('/')}
+                        aria-label={title}
+                        className={classes.logoContainer}
+                    >
+                        <Logo classes={{ logo: classes.logo }} />
+                    </Link>
+                </div>
+            </footer>
+        </>
     );
 };
 

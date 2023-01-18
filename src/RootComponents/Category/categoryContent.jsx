@@ -26,7 +26,6 @@ import SortedByContainer, {
 } from '@magento/venia-ui/lib/components/SortedByContainer';
 import defaultClasses from '@magento/venia-ui/lib/RootComponents/Category/category.module.css';
 import NoProductsFound from '@magento/venia-ui/lib/RootComponents/Category/NoProductsFound';
-import NewsletterBar from '@/components/NewsletterBar';
 
 const FilterModal = React.lazy(() =>
     import('@magento/venia-ui/lib/components/FilterModal')
@@ -193,7 +192,6 @@ const CategoryContent = props => {
                     </div>
                 </div>
             </article>
-            <NewsletterBar />
         </Fragment>
     );
 };
