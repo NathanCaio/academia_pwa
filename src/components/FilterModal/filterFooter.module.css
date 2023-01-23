@@ -1,0 +1,25 @@
+.root {
+    composes: bg-white from global;
+    composes: content-center from global;
+    composes: gap-y-1 from global;
+    composes: grid from global;
+    composes: h-[7rem] from global;
+    composes: items-center from global;
+    composes: justify-items-center from global;
+    composes: relative from global;
+}
+
+.root > button {
+    background-color: #14214e;
+    border-color: #14214e;
+}
+
+.root > button:hover {
+    background-color: #0e1838;
+    border-color: #0e1838;
+}
+
+.root > button:active {
+    background-color: #0e1838;
+    border-color: #0e1838;
+}

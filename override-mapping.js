@@ -122,5 +122,38 @@ module.exports = {
         'src/talons/Wishlist/AddToListButton/useAddToListButton.ee.js',
 
     '@magento/peregrine/lib/talons/ProductFullDetail/useProductFullDetail.js':
-        'src/talons/ProductFullDetail/useProductFullDetail.js'
+        'src/talons/ProductFullDetail/useProductFullDetail.js',
+
+    '@magento/venia-ui/lib/components/ProductSort/productSort.js':
+        'src/components/ProductSort/productSort.jsx',
+
+    '@magento/venia-ui/lib/components/FilterModalOpenButton/filterModalOpenButton.js':
+        'src/components/FilterModalOpenButton/filterModalOpenButton.jsx',
+
+    '@magento/venia-ui/lib/components/SortedByContainer/sortedByContainer.js':
+        'src/components/SortedByContainer/sortedByContainer.jsx',
+
+    '@magento/venia-ui/lib/components/Gallery/gallery.module.css':
+        'src/components/Gallery/gallery.module.css',
+
+    '@magento/venia-ui/lib/components/SearchBar/autocomplete.js':
+        'src/components/SearchBar/autocomplete.jsx',
+
+    '@magento/venia-ui/lib/components/SearchBar/suggestedCategory.js':
+        'src/components/SearchBar/suggestedCategory.jsx',
+
+    '@magento/venia-ui/lib/components/SearchBar/suggestions.js':
+        'src/components/SearchBar/suggestions.jsx',
+
+    '@magento/venia-ui/lib/components/FilterModal/filterFooter.js':
+        'src/components/FilterModal/filterFooter.jsx',
+
+    '@magento/venia-ui/lib/components/FilterModal/filterFooter.module.css':
+        'src/components/FilterModal/filterFooter.module.css',
+
+    '@magento/venia-ui/lib/components/FilterModal/filterModal.js':
+        'src/components/FilterModal/filterModal.jsx',
+
+    '@magento/venia-ui/lib/components/FilterModal/filterModal.module.css':
+        'src/components/FilterModal/filterModal.module.css'
 };
