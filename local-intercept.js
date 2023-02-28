@@ -27,6 +27,13 @@ function localIntercept(targets) {
                 path: require.resolve('./src/components/HomePage')
             });
 
+            routes.push({
+                name: 'About page',
+                pattern: ['/sobre-nos'],
+                exact: true,
+                path: require.resolve('./src/components/AboutPage')
+            });
+
             return routes;
         });
     })();
