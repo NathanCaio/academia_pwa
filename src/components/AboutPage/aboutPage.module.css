@@ -1,0 +1,42 @@
+.aboutPageContainer {
+    width: 100%;
+    max-width: 77.5rem;
+    margin: 0 auto;
+}
+
+.aboutPageContainer h1 {
+    color: #14214e;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0;
+}
+
+.aboutPageContainer h2 {
+    margin: 2rem 0 0.5rem 0;
+    font-weight: 700;
+    color: #14214e;
+    width: fit-content;
+}
+
+.aboutPageContainer h2:nth-of-type(odd) {
+    background-color: #14214e;
+    color: #fff;
+}
+
+.aboutPageContainer h2:nth-of-type(even) {
+    position: relative;
+}
+
+.aboutPageContainer h2:nth-of-type(even)::after {
+    content: '';
+    width: 100%;
+    height: 0.2rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #c70041;
+}
+
+.aboutPageContainer img {
+    margin: 0;
+}

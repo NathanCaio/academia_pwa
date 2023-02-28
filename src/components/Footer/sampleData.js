@@ -9,7 +9,7 @@ const accountLinks = new Map()
 
 const aboutLinks = new Map()
     .set('Institucional', null)
-    .set('Quem somos', null)
+    .set('Sobre nós', '/sobre-nos')
     .set('Nossa história', null)
     .set('Trabalhe conosco', null);
 
