@@ -155,5 +155,11 @@ module.exports = {
         'src/components/FilterModal/filterModal.jsx',
 
     '@magento/venia-ui/lib/components/FilterModal/filterModal.module.css':
-        'src/components/FilterModal/filterModal.module.css'
+        'src/components/FilterModal/filterModal.module.css',
+
+    '@magento/venia-ui/lib/components/CheckoutPage/checkoutPage.js':
+        'src/components/CheckoutPage/checkoutPage.jsx',
+
+    '@magento/venia-ui/lib/components/CheckoutPage/checkoutPage.module.css':
+        'src/components/CheckoutPage/checkoutPage.module.css'
 };
